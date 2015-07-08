@@ -1,0 +1,64 @@
+{
+  "oscillator": {
+    "node-params": {"type": "square", "frequency": 440},
+    "params": [
+      {"name": "type", "type": "string"},
+      {"name": "frequency", "type": "number"}
+    ],
+    "out": true
+  },
+  "gain": {
+    "node-params": {
+      "gain": 0.2
+    },
+    "params": [
+      {"name": "gain", "type": "number"}
+    ],
+    "in": true,
+    "out": true
+  },
+  "delay": {
+    "node-params": {
+      "delayTime": 0.33,
+      "maxDelaytime": 1
+    },
+    "params": [
+      {"name": "delayTime", "type": "number"},
+      {"name": "maxDelayTime", "type": "number"}
+    ],
+    "in": true,
+    "out": true
+  },
+  "biquadFilter": {
+    "node-params": {
+      "type": "blah",
+      "frequency": 440,
+      "detune": 3,
+      "Q": "wat is this?"
+    },
+    "params": [
+      {"name": "type", "type": "string"},
+      {"name": "frequency", "type": "number"},
+      {"name": "detune", "type": "number"},
+      {"name": "Q", "type": "string"}
+    ],
+    "in": true,
+    "out": true
+  },
+  "stereoPanner": {
+    "node-params": {
+      "pan": 3
+    },
+    "params": [
+      {"name": "pan", "type": "number"}
+    ],
+    "in": true,
+    "out": true
+  },
+  "mediaStreamSource": {
+    "node-params": {
+      "source": false
+    },
+    "out": true
+  }
+}

@@ -9,4 +9,4 @@ Most of the interesting things are happening in these three modules..
 * [flowgraph](https://www.npmjs.com/package/flowgraph)
 * [flowgraph-editor](https://www.npmjs.com/package/flowgraph-editor)
 
-[DEMO](https://davejustice.com/audio-graph-editor)
+[DEMO.](https://davejustice.com/audio-graph-editor)

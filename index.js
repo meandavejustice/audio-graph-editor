@@ -8,7 +8,7 @@ var extend = require('xtend')
 var domArray = require('dom-array')
 
 var AudioContext = require('audiocontext');
-var AudioGraph = require('./lib/audiograph/index.js');
+var AudioGraph = require('audiograph');
 var context = new AudioContext();
 
 window.audioGraph = new AudioGraph(context);
